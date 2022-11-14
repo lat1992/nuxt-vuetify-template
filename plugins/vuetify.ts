@@ -1,15 +1,15 @@
-import { createVuetify } from 'vuetify'
-import { en, zhHans } from 'vuetify/locale'
+import {createVuetify} from 'vuetify'
+import {en, zhHans} from 'vuetify/locale'
 import '@mdi/font/css/materialdesignicons.css'
-import { aliases, mdi } from 'vuetify/lib/iconsets/mdi'
+import {aliases, mdi} from 'vuetify/lib/iconsets/mdi'
 
 export default defineNuxtPlugin((nuxtApp) => {
     const vuetify = createVuetify({
         ssr: process.server,
         locale: {
             locale: 'en',
-                fallback: 'en',
-                messages: {en,zhHans}
+            fallback: 'en',
+            messages: {en, zhHans}
         },
         theme: {
             defaultTheme: 'light',

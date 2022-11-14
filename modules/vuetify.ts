@@ -1,4 +1,4 @@
-import type { NuxtModule } from '@nuxt/schema'
+import type {NuxtModule} from '@nuxt/schema'
 import vuetifyLoader from 'vite-plugin-vuetify'
 
 const vuetifyModule: NuxtModule = async (_inlineOptions, nuxt) => {

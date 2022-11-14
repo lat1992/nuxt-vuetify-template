@@ -20,17 +20,17 @@ function changeLanguage() {
   <v-container>
     <v-card>
       <v-card-title>Title</v-card-title>
-      <v-icon color="green-darken-2" icon="mdi-check" />
+      <v-icon color="green-darken-2" icon="mdi-check"/>
       <v-icon
-          size="large"
           color="green-darken-2"
+          size="large"
       >
         mdi-domain
       </v-icon>
       <v-card-text>{{ $t("helloWorld") }}</v-card-text>
       <v-btn
-          icon="mdi-star"
           color="primary"
+          icon="mdi-star"
           @click="changeLanguage"
       />
     </v-card>
