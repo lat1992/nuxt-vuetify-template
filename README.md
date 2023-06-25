@@ -1,6 +1,10 @@
-# Nuxt 3 Minimal Starter
+# Nuxt Vuetify Template
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+A template to bootstrap a new SSR front project easily.
+- Nuxt 3
+- Vuetify 3
+- i18n
+- Always up to date
 
 ## Setup
 
