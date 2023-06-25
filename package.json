@@ -8,10 +8,10 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@mdi/font": "^7.0.96",
-    "nuxt": "3.0.0-rc.13",
-    "vite-plugin-vuetify": "^1.0.0",
+    "@mdi/font": "^7.2.96",
+    "nuxt": "3.6.0",
+    "vite-plugin-vuetify": "^1.0.2",
     "vue-i18n": "^9.2.2",
-    "vuetify": "^3.0.1"
+    "vuetify": "^3.3.5"
   }
 }
